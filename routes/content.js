@@ -1,5 +1,5 @@
 const express = require('express');
-const Content = require('../models/Content');
+const Content = require('../models/content');
 const User = require('../models/User');
 const { auth, adminAuth } = require('../middleware/auth');
 const upload = require('../middleware/upload');
